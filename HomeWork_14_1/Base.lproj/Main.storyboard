@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fwk-mU-V9o">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9cC-FX-Drg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="-49.275362318840585" y="64.955357142857139"/>
         </scene>
-        <!--Список задач-->
+        <!--To Do View Controller-->
         <scene sceneID="mER-J7-z7Q">
             <objects>
                 <tableViewController id="iNu-NA-axc" customClass="ToDoViewController" customModule="HomeWork_14_1" customModuleProvider="target" sceneMemberID="viewController">
@@ -89,7 +89,7 @@
                             <outlet property="delegate" destination="iNu-NA-axc" id="RuD-fY-eWd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Список задач" id="OSX-30-Shh">
+                    <navigationItem key="navigationItem" id="OSX-30-Shh">
                         <leftBarButtonItems>
                             <barButtonItem title="Изменить" image="chart.bar.doc.horizontal.fill" catalog="system" id="hHb-Sh-Rnv">
                                 <connections>
@@ -102,14 +102,42 @@
                                 </connections>
                             </barButtonItem>
                         </leftBarButtonItems>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="w8e-DO-bwr">
-                            <connections>
-                                <action selector="addButtonBar:" destination="iNu-NA-axc" id="LK2-0D-8PX"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="w8e-DO-bwr">
+                                <connections>
+                                    <action selector="addButtonBar:" destination="iNu-NA-axc" id="LK2-0D-8PX"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="Xsh-ba-NaS">
+                                <view key="customView" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cBB-vC-1zS" customClass="SegmentView" customModule="HomeWork_14_1" customModuleProvider="target">
+                                    <rect key="frame" x="223.5" y="5.5" width="130" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.63753002879999998" green="0.76820904020000003" blue="0.90978288650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" red="0.054158626119999997" green="0.070705211729999995" blue="0.087773437499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="colorUnder">
+                                            <color key="value" systemColor="systemGray6Color"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textButton1" value="Realm"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textButton2" value="CoreDate"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="border">
+                                            <real key="value" value="0.0"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                            <color key="value" red="0.62022203210000004" green="0.76455980540000001" blue="0.91708296540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="clearButtonEnable" destination="rWW-gl-6eG" id="G0f-Iw-GHS"/>
+                        <outlet property="mySegment" destination="cBB-vC-1zS" id="Ffq-K5-DTW"/>
+                        <outlet property="tableViewRealm" destination="U6I-zx-WQh" id="K7T-av-Acg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yme-KK-QXP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -139,7 +167,7 @@
         <!--myTableViewController-->
         <scene sceneID="ZkM-FK-Krf">
             <objects>
-                <tableViewController id="RPh-wx-ety" userLabel="myTableViewController" customClass="AlamofireTableViewController" customModule="HomeWork_12_Carthage" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="RPh-wx-ety" userLabel="myTableViewController" customClass="AlamofireTableViewController" customModule="HomeWork_14_1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YBR-0J-snb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,6 +245,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

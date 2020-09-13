@@ -12,6 +12,5 @@ import RealmSwift
 class PersistanceRealm: Object {
     
     @objc dynamic var name = ""
-
 }
 

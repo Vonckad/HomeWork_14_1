@@ -12,6 +12,8 @@
 		E30D87CA25060FCA002061AA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30D87C925060FCA002061AA /* MyTableViewCell.swift */; };
 		E31F2A5B24EC327A00067844 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F2A5A24EC327A00067844 /* ToDoViewController.swift */; };
 		E32FB1992506BCF700219773 /* WeatherRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FB1982506BCF700219773 /* WeatherRealm.swift */; };
+		E32FB1DE250CC28100219773 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FB1DC250CC28000219773 /* SegmentView.swift */; };
+		E32FB1DF250CC28100219773 /* SengemtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E32FB1DD250CC28100219773 /* SengemtView.xib */; };
 		E35E3DA42506A24D000A1AC7 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35E3D9E2506A24D000A1AC7 /* DailyWeatherTableViewCell.swift */; };
 		E35E3DA62506A24D000A1AC7 /* DailyWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35E3DA02506A24D000A1AC7 /* DailyWeatherTableViewCell.xib */; };
 		E35E3DAD2506A517000A1AC7 /* AlamofireTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35E3DAA2506A516000A1AC7 /* AlamofireTableViewController.swift */; };
@@ -39,6 +41,8 @@
 		E32BA82624EE662E00A3C720 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		E32BA82724EE662E00A3C720 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		E32FB1982506BCF700219773 /* WeatherRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRealm.swift; sourceTree = "<group>"; };
+		E32FB1DC250CC28000219773 /* SegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		E32FB1DD250CC28100219773 /* SengemtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SengemtView.xib; sourceTree = "<group>"; };
 		E35E3D9E2506A24D000A1AC7 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
 		E35E3D9F2506A24D000A1AC7 /* Rain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rain.gif; sourceTree = "<group>"; };
 		E35E3DA02506A24D000A1AC7 /* DailyWeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyWeatherTableViewCell.xib; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 				E30D87C925060FCA002061AA /* MyTableViewCell.swift */,
 				E31F2A5A24EC327A00067844 /* ToDoViewController.swift */,
 				E304A47F24EC4426002766D5 /* PersistanceRealm.swift */,
+				E32FB1E0250CC2B200219773 /* SegmentViewForRealmOrCoreData */,
 			);
 			path = "Second Task";
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				1B9E4FCF25F2FBF722127684 /* Pods_HomeWork_14_1.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E32FB1E0250CC2B200219773 /* SegmentViewForRealmOrCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E32FB1DC250CC28000219773 /* SegmentView.swift */,
+				E32FB1DD250CC28100219773 /* SengemtView.xib */,
+			);
+			path = SegmentViewForRealmOrCoreData;
 			sourceTree = "<group>";
 		};
 		E35E3D9D2506A24D000A1AC7 /* DailyWeatherTableView */ = {
@@ -235,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32FB1DF250CC28100219773 /* SengemtView.xib in Resources */,
 				E35E3DA62506A24D000A1AC7 /* DailyWeatherTableViewCell.xib in Resources */,
 				E3E57E4424E5C57C00A01B21 /* LaunchScreen.storyboard in Resources */,
 				E3E57E4124E5C57C00A01B21 /* Assets.xcassets in Resources */,
@@ -303,6 +318,7 @@
 				E3E57E4C24E5C59F00A01B21 /* Persistance.swift in Sources */,
 				E31F2A5B24EC327A00067844 /* ToDoViewController.swift in Sources */,
 				E35E3DAD2506A517000A1AC7 /* AlamofireTableViewController.swift in Sources */,
+				E32FB1DE250CC28100219773 /* SegmentView.swift in Sources */,
 				E3E57E3724E5C57900A01B21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

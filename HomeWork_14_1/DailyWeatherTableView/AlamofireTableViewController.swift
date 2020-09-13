@@ -40,7 +40,7 @@ class AlamofireTableViewController: UITableViewController {
             try! self.weatherReal.write({
                
             self.weatherReal.add(numberCount)
-                self.numberCoRe =N numberCount.weatherReNUm
+                self.numberCoRe = numberCount.weatherReNUm
             })
             
             self.tableView.reloadData()
