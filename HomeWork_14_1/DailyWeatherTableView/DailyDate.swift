@@ -7,25 +7,25 @@
 //
 
 import Foundation
+import RealmSwift
 
-struct DailyDate: Codable {
-    
-    var daily: [Daily]
-    var timezone: String
+@objcMembers class DailyDate: Object, Codable {
+
+    var daily = List<Daily>()
+    @objc dynamic var timezone: String = ""
 }
 
-struct Daily: Codable {
-    var dt: Int
-    var temp: Temp
-    var weather: [WeatherA]
+class Daily: Object, Codable {
+    @objc dynamic var dt: Int = 0
+    @objc dynamic var temp: Temp?
+    var weather = List<WeatherA>()
 }
 
-struct Temp: Codable {
-    var day: Double
-    var night: Double
+class Temp: Object, Codable {
+    @objc dynamic var day: Double = 0.0
+    @objc dynamic var night: Double = 0.0
 }
 
-struct WeatherA: Codable {
-    var main: String
+class WeatherA: Object, Codable{
+    @objc dynamic var main: String = ""
 }
-

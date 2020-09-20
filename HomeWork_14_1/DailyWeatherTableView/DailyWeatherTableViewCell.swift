@@ -16,7 +16,7 @@ class DailyWeatherTableViewCell: UITableViewCell {
     @IBOutlet var tempLabelNight: UILabel!
     @IBOutlet var myImage: UIImageView!
     
-    var nameWeatherIconGif: String = "Load"
+//    var nameWeatherIconGif: String = "Load"
 //    var weatherIconGif = GIFImageView()
     
     override func awakeFromNib() {
@@ -31,11 +31,11 @@ class DailyWeatherTableViewCell: UITableViewCell {
     }
     
     func configurate(with model: Daily)  {
-        tempLabelDay.text = "\(Int(model.temp.day)) ℃"
-        tempLabelNight.text = "\(Int(model.temp.night)) ℃"
+        tempLabelDay.text = "\(Int(model.temp!.day)) ℃"
+        tempLabelNight.text = "\(Int(model.temp!.night)) ℃"
         dateLabel.text = getDate(Date(timeIntervalSince1970: Double(model.dt)))
-        nameWeatherIconGif = model.weather[0].main
         
+//        nameWeatherIconGif = model.weather[0].main
 //        weatherIconGif.animate(withGIFNamed: nameWeatherIconGif)
 //        myImage.addSubview(weatherIconGif)
     }

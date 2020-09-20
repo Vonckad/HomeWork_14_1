@@ -11,14 +11,17 @@
 		E304A48024EC4426002766D5 /* PersistanceRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E304A47F24EC4426002766D5 /* PersistanceRealm.swift */; };
 		E30D87CA25060FCA002061AA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30D87C925060FCA002061AA /* MyTableViewCell.swift */; };
 		E31F2A5B24EC327A00067844 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F2A5A24EC327A00067844 /* ToDoViewController.swift */; };
-		E32FB1992506BCF700219773 /* WeatherRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FB1982506BCF700219773 /* WeatherRealm.swift */; };
 		E32FB1DE250CC28100219773 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FB1DC250CC28000219773 /* SegmentView.swift */; };
 		E32FB1DF250CC28100219773 /* SengemtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E32FB1DD250CC28100219773 /* SengemtView.xib */; };
-		E35E3DA42506A24D000A1AC7 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35E3D9E2506A24D000A1AC7 /* DailyWeatherTableViewCell.swift */; };
-		E35E3DA62506A24D000A1AC7 /* DailyWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35E3DA02506A24D000A1AC7 /* DailyWeatherTableViewCell.xib */; };
-		E35E3DAD2506A517000A1AC7 /* AlamofireTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35E3DAA2506A516000A1AC7 /* AlamofireTableViewController.swift */; };
-		E35E3DAE2506A517000A1AC7 /* AlamofireLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35E3DAB2506A516000A1AC7 /* AlamofireLoader.swift */; };
-		E35E3DAF2506A517000A1AC7 /* DailyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35E3DAC2506A516000A1AC7 /* DailyDate.swift */; };
+		E39D2BC22517E06000C1A571 /* DailyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D2BB92517E05F00C1A571 /* DailyDate.swift */; };
+		E39D2BC32517E06000C1A571 /* AlamofireTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D2BBA2517E05F00C1A571 /* AlamofireTableViewController.swift */; };
+		E39D2BC42517E06000C1A571 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D2BBB2517E05F00C1A571 /* DailyWeatherTableViewCell.swift */; };
+		E39D2BC52517E06000C1A571 /* Rain.gif in Resources */ = {isa = PBXBuildFile; fileRef = E39D2BBC2517E05F00C1A571 /* Rain.gif */; };
+		E39D2BC62517E06000C1A571 /* DailyWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39D2BBD2517E05F00C1A571 /* DailyWeatherTableViewCell.xib */; };
+		E39D2BC72517E06000C1A571 /* Load.gif in Resources */ = {isa = PBXBuildFile; fileRef = E39D2BBE2517E05F00C1A571 /* Load.gif */; };
+		E39D2BC82517E06000C1A571 /* Clear.gif in Resources */ = {isa = PBXBuildFile; fileRef = E39D2BBF2517E06000C1A571 /* Clear.gif */; };
+		E39D2BC92517E06000C1A571 /* Clouds.gif in Resources */ = {isa = PBXBuildFile; fileRef = E39D2BC02517E06000C1A571 /* Clouds.gif */; };
+		E39D2BCA2517E06000C1A571 /* AlamofireLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D2BC12517E06000C1A571 /* AlamofireLoader.swift */; };
 		E3E57E3524E5C57900A01B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E57E3424E5C57900A01B21 /* AppDelegate.swift */; };
 		E3E57E3724E5C57900A01B21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E57E3624E5C57900A01B21 /* SceneDelegate.swift */; };
 		E3E57E3924E5C57900A01B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E57E3824E5C57900A01B21 /* ViewController.swift */; };
@@ -40,20 +43,19 @@
 		E31F2A5F24EC363600067844 /* Gifu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gifu.framework; path = ../HomeWork_14/Carthage/Build/iOS/Gifu.framework; sourceTree = "<group>"; };
 		E32BA82624EE662E00A3C720 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		E32BA82724EE662E00A3C720 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		E32FB1982506BCF700219773 /* WeatherRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRealm.swift; sourceTree = "<group>"; };
 		E32FB1DC250CC28000219773 /* SegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		E32FB1DD250CC28100219773 /* SengemtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SengemtView.xib; sourceTree = "<group>"; };
-		E35E3D9E2506A24D000A1AC7 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
-		E35E3D9F2506A24D000A1AC7 /* Rain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rain.gif; sourceTree = "<group>"; };
-		E35E3DA02506A24D000A1AC7 /* DailyWeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyWeatherTableViewCell.xib; sourceTree = "<group>"; };
-		E35E3DA12506A24D000A1AC7 /* Load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Load.gif; sourceTree = "<group>"; };
-		E35E3DA22506A24D000A1AC7 /* Clear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Clear.gif; sourceTree = "<group>"; };
-		E35E3DA32506A24D000A1AC7 /* Clouds.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Clouds.gif; sourceTree = "<group>"; };
-		E35E3DAA2506A516000A1AC7 /* AlamofireTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTableViewController.swift; sourceTree = "<group>"; };
-		E35E3DAB2506A516000A1AC7 /* AlamofireLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireLoader.swift; sourceTree = "<group>"; };
-		E35E3DAC2506A516000A1AC7 /* DailyDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyDate.swift; sourceTree = "<group>"; };
 		E35E3DB02506A60A000A1AC7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../HomeWork_12_Carthage/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		E35E3DB82506A6F4000A1AC7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E39D2BB92517E05F00C1A571 /* DailyDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyDate.swift; sourceTree = "<group>"; };
+		E39D2BBA2517E05F00C1A571 /* AlamofireTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTableViewController.swift; sourceTree = "<group>"; };
+		E39D2BBB2517E05F00C1A571 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		E39D2BBC2517E05F00C1A571 /* Rain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rain.gif; sourceTree = "<group>"; };
+		E39D2BBD2517E05F00C1A571 /* DailyWeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		E39D2BBE2517E05F00C1A571 /* Load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Load.gif; sourceTree = "<group>"; };
+		E39D2BBF2517E06000C1A571 /* Clear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Clear.gif; sourceTree = "<group>"; };
+		E39D2BC02517E06000C1A571 /* Clouds.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Clouds.gif; sourceTree = "<group>"; };
+		E39D2BC12517E06000C1A571 /* AlamofireLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireLoader.swift; sourceTree = "<group>"; };
 		E3E57E3124E5C57900A01B21 /* HomeWork_14_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork_14_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E57E3424E5C57900A01B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E57E3624E5C57900A01B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,19 +141,18 @@
 			path = SegmentViewForRealmOrCoreData;
 			sourceTree = "<group>";
 		};
-		E35E3D9D2506A24D000A1AC7 /* DailyWeatherTableView */ = {
+		E39D2BB82517E05F00C1A571 /* DailyWeatherTableView */ = {
 			isa = PBXGroup;
 			children = (
-				E32FB1982506BCF700219773 /* WeatherRealm.swift */,
-				E35E3DAA2506A516000A1AC7 /* AlamofireTableViewController.swift */,
-				E35E3DAB2506A516000A1AC7 /* AlamofireLoader.swift */,
-				E35E3DAC2506A516000A1AC7 /* DailyDate.swift */,
-				E35E3D9E2506A24D000A1AC7 /* DailyWeatherTableViewCell.swift */,
-				E35E3DA02506A24D000A1AC7 /* DailyWeatherTableViewCell.xib */,
-				E35E3D9F2506A24D000A1AC7 /* Rain.gif */,
-				E35E3DA12506A24D000A1AC7 /* Load.gif */,
-				E35E3DA22506A24D000A1AC7 /* Clear.gif */,
-				E35E3DA32506A24D000A1AC7 /* Clouds.gif */,
+				E39D2BB92517E05F00C1A571 /* DailyDate.swift */,
+				E39D2BBA2517E05F00C1A571 /* AlamofireTableViewController.swift */,
+				E39D2BBB2517E05F00C1A571 /* DailyWeatherTableViewCell.swift */,
+				E39D2BBC2517E05F00C1A571 /* Rain.gif */,
+				E39D2BBD2517E05F00C1A571 /* DailyWeatherTableViewCell.xib */,
+				E39D2BBE2517E05F00C1A571 /* Load.gif */,
+				E39D2BBF2517E06000C1A571 /* Clear.gif */,
+				E39D2BC02517E06000C1A571 /* Clouds.gif */,
+				E39D2BC12517E06000C1A571 /* AlamofireLoader.swift */,
 			);
 			path = DailyWeatherTableView;
 			sourceTree = "<group>";
@@ -180,7 +181,7 @@
 				E30D87CD2506100B002061AA /* System File */,
 				E30D87CC25060FE1002061AA /* First Task */,
 				E30D87CE25061024002061AA /* Second Task */,
-				E35E3D9D2506A24D000A1AC7 /* DailyWeatherTableView */,
+				E39D2BB82517E05F00C1A571 /* DailyWeatherTableView */,
 				E3E57E3A24E5C57900A01B21 /* Main.storyboard */,
 				E3E57E4024E5C57C00A01B21 /* Assets.xcassets */,
 				E3E57E4224E5C57C00A01B21 /* LaunchScreen.storyboard */,
@@ -250,9 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E32FB1DF250CC28100219773 /* SengemtView.xib in Resources */,
-				E35E3DA62506A24D000A1AC7 /* DailyWeatherTableViewCell.xib in Resources */,
 				E3E57E4424E5C57C00A01B21 /* LaunchScreen.storyboard in Resources */,
 				E3E57E4124E5C57C00A01B21 /* Assets.xcassets in Resources */,
+				E39D2BC72517E06000C1A571 /* Load.gif in Resources */,
+				E39D2BC92517E06000C1A571 /* Clouds.gif in Resources */,
+				E39D2BC82517E06000C1A571 /* Clear.gif in Resources */,
+				E39D2BC52517E06000C1A571 /* Rain.gif in Resources */,
+				E39D2BC62517E06000C1A571 /* DailyWeatherTableViewCell.xib in Resources */,
 				E3E57E3C24E5C57900A01B21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,16 +314,15 @@
 				E3E57E3924E5C57900A01B21 /* ViewController.swift in Sources */,
 				E30D87CA25060FCA002061AA /* MyTableViewCell.swift in Sources */,
 				E3E57E3524E5C57900A01B21 /* AppDelegate.swift in Sources */,
-				E35E3DAF2506A517000A1AC7 /* DailyDate.swift in Sources */,
-				E35E3DAE2506A517000A1AC7 /* AlamofireLoader.swift in Sources */,
-				E32FB1992506BCF700219773 /* WeatherRealm.swift in Sources */,
+				E39D2BC22517E06000C1A571 /* DailyDate.swift in Sources */,
 				E3E57E3F24E5C57900A01B21 /* HomeWork_14_1.xcdatamodeld in Sources */,
 				E304A48024EC4426002766D5 /* PersistanceRealm.swift in Sources */,
-				E35E3DA42506A24D000A1AC7 /* DailyWeatherTableViewCell.swift in Sources */,
 				E3E57E4C24E5C59F00A01B21 /* Persistance.swift in Sources */,
 				E31F2A5B24EC327A00067844 /* ToDoViewController.swift in Sources */,
-				E35E3DAD2506A517000A1AC7 /* AlamofireTableViewController.swift in Sources */,
+				E39D2BC42517E06000C1A571 /* DailyWeatherTableViewCell.swift in Sources */,
+				E39D2BCA2517E06000C1A571 /* AlamofireLoader.swift in Sources */,
 				E32FB1DE250CC28100219773 /* SegmentView.swift in Sources */,
+				E39D2BC32517E06000C1A571 /* AlamofireTableViewController.swift in Sources */,
 				E3E57E3724E5C57900A01B21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

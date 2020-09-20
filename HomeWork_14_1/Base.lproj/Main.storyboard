@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9cC-FX-Drg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fft-Ti-6ew">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -58,7 +58,7 @@
                         <color key="backgroundColor" red="0.57772064209999996" green="0.74993062020000001" blue="0.92776268719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.57772064209999996" green="0.74993062020000001" blue="0.92776268719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="17" reuseIdentifier="Cell" rowHeight="73" id="3fo-lM-545" customClass="MyTableViewCell" customModule="HomeWork_14_1" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="17" reuseIdentifier="Cell" rowHeight="73" id="3fo-lM-545" customClass="MyTableViewCell" customModule="HomeWork_14_1" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3fo-lM-545" id="eu5-Mx-laR">
@@ -120,9 +120,6 @@
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="textButton1" value="Realm"/>
                                         <userDefinedRuntimeAttribute type="string" keyPath="textButton2" value="CoreDate"/>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="border">
-                                            <real key="value" value="0.0"/>
-                                        </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
                                             <color key="value" red="0.62022203210000004" green="0.76455980540000001" blue="0.91708296540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </userDefinedRuntimeAttribute>
@@ -136,7 +133,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="clearButtonEnable" destination="rWW-gl-6eG" id="G0f-Iw-GHS"/>
-                        <outlet property="mySegment" destination="cBB-vC-1zS" id="Ffq-K5-DTW"/>
+                        <outlet property="mySegment" destination="cBB-vC-1zS" id="AAC-wA-O18"/>
                         <outlet property="tableViewRealm" destination="U6I-zx-WQh" id="K7T-av-Acg"/>
                     </connections>
                 </tableViewController>
@@ -165,57 +162,57 @@
             <point key="canvasLocation" x="-37.681159420289859" y="720.53571428571422"/>
         </scene>
         <!--myTableViewController-->
-        <scene sceneID="ZkM-FK-Krf">
+        <scene sceneID="Dnc-iO-oxD">
             <objects>
-                <tableViewController id="RPh-wx-ety" userLabel="myTableViewController" customClass="AlamofireTableViewController" customModule="HomeWork_14_1" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YBR-0J-snb">
+                <tableViewController id="bqM-hD-niQ" userLabel="myTableViewController" customClass="AlamofireTableViewController" customModule="HomeWork_14_WeatherRealm" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zJ3-w1-UbD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="sectionIndexBackgroundColor" red="0.2911889553" green="0.7314916253" blue="0.87391477819999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="Fet-qZ-OHI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="sST-cs-oQ1">
                                 <rect key="frame" x="0.0" y="28" width="414" height="140"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fet-qZ-OHI" id="yzY-Pk-53m">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sST-cs-oQ1" id="hQ7-Su-ePR">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="RPh-wx-ety" id="nDe-LX-H7y"/>
-                            <outlet property="delegate" destination="RPh-wx-ety" id="lfr-hu-Tfk"/>
+                            <outlet property="dataSource" destination="bqM-hD-niQ" id="0hp-Ob-jg8"/>
+                            <outlet property="delegate" destination="bqM-hD-niQ" id="DqZ-3s-Clu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Москва" id="VD7-NT-VaO">
-                        <barButtonItem key="leftBarButtonItem" title="Date of day" style="done" id="jwK-YL-Ngr">
+                    <navigationItem key="navigationItem" title="Москва" id="deQ-Fe-Stb">
+                        <barButtonItem key="leftBarButtonItem" title="Date of day" style="done" id="qT1-kz-vaL">
                             <inset key="largeContentSizeImageInsets" minX="0.0" minY="50" maxX="0.0" maxY="50"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                         <rightBarButtonItems>
-                            <barButtonItem title="Night" style="done" id="WeW-MO-ADl">
+                            <barButtonItem title="Night" style="done" id="MUH-jX-Iy6">
                                 <inset key="largeContentSizeImageInsets" minX="0.0" minY="50" maxX="0.0" maxY="50"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
-                            <barButtonItem title="Day" style="done" id="zb0-wz-aXe">
+                            <barButtonItem title="Day" style="done" id="Ann-CD-Y74">
                                 <inset key="largeContentSizeImageInsets" minX="0.0" minY="50" maxX="0.0" maxY="50"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vy7-gN-Se9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtD-lJ-1dU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="872" y="1430"/>
+            <point key="canvasLocation" x="861" y="1402"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Cv0-cq-53Y">
+        <scene sceneID="Ra0-7Z-fK9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fwk-mU-V9o" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fft-Ti-6ew" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" shadowImage="nil" largeTitles="YES" id="Qez-R4-FSQ">
+                    <navigationBar key="navigationBar" userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" shadowImage="nil" largeTitles="YES" id="lpn-jd-eDT">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.2901960784" green="0.73333333329999995" blue="0.87391477819999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -225,16 +222,16 @@
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="vKp-QZ-mvd">
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="VI9-zR-2Uh">
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
-                        <segue destination="RPh-wx-ety" kind="relationship" relationship="rootViewController" id="rJ8-fD-5Bq"/>
+                        <segue destination="bqM-hD-niQ" kind="relationship" relationship="rootViewController" id="svZ-tj-UkR"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="X5C-WR-0Qb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SQX-25-VPS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-38" y="1430"/>
+            <point key="canvasLocation" x="-49" y="1402"/>
         </scene>
     </scenes>
     <resources>
